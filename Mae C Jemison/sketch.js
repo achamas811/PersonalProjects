@@ -1,7 +1,7 @@
 let backdrop;
 
 function preload(){
-  backdrop = loadImage('C:/Users/alexa/Downloads/space.jpg');
+  backdrop = loadImage('assets/space.jpg');
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
