@@ -1,7 +1,13 @@
-function setup() {
-  createCanvas(400, 400);
-}
+let backdrop;
 
-function draw() {
-  background(220);
+function preload(){
+  backdrop = loadImage('C:/Users/alexa/Downloads/space.jpg');
+}
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  
+}
+function draw(){
+  background(backdrop);
+  fill(255, 255, 255);
 }
